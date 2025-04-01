@@ -67,7 +67,7 @@ public class Employee implements IApp {
         this.allowanceSalary = allowanceSalary;
     }
 
-    public String getdepartment() {return department;}
+    public String getdepartment() { return department;}
 
     public void setdepartment(String department) {
         this.department = department;
@@ -102,8 +102,9 @@ public class Employee implements IApp {
         this.allowanceSalary = sc.nextInt();
 
         System.out.print("Nhập phòng ban làm việc: ");
-        this.department  = sc.nextLine();
         sc.nextLine();
+        this.department = sc.nextLine();
+
     }
 
     @Override
